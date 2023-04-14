@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */; };
+		B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */; };
+		B3199DB329E2C190005EEAC2 /* LoginPresenterMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */; };
+		B3199DB529E2C409005EEAC2 /* LoginViewInputMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB429E2C409005EEAC2 /* LoginViewInputMvp.swift */; };
+		B3199DB729E2C41A005EEAC2 /* LoginViewOutputMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB629E2C41A005EEAC2 /* LoginViewOutputMvp.swift */; };
+		B3199DBB29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DBA29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift */; };
+		B3199DBE29E2D435005EEAC2 /* Login View Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DBD29E2D435005EEAC2 /* Login View Model.swift */; };
+		B34E848829E906B900815AB7 /* LoginViewControllerViperInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848729E906B900815AB7 /* LoginViewControllerViperInput.swift */; };
+		B34E848A29E906C300815AB7 /* LoginViewControllerViperOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848929E906C300815AB7 /* LoginViewControllerViperOutput.swift */; };
+		B34E849029E906F100815AB7 /* LoginPresneterViperInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848F29E906F100815AB7 /* LoginPresneterViperInput.swift */; };
+		B34E849229E906FE00815AB7 /* LoginPresenterViperOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E849129E906FE00815AB7 /* LoginPresenterViperOutput.swift */; };
+		B34E849429E9186800815AB7 /* LoginRouterViperInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E849329E9186800815AB7 /* LoginRouterViperInput.swift */; };
 		B3589DD129D9502D00A6B5FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3589DD029D9502D00A6B5FA /* AppDelegate.swift */; };
 		B3589DD329D9502D00A6B5FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3589DD229D9502D00A6B5FA /* SceneDelegate.swift */; };
-		B3589DD529D9502D00A6B5FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3589DD429D9502D00A6B5FA /* ViewController.swift */; };
-		B3589DD829D9502D00A6B5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3589DD629D9502D00A6B5FA /* Main.storyboard */; };
+		B3589DD529D9502D00A6B5FA /* LoginViewControllerMvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3589DD429D9502D00A6B5FA /* LoginViewControllerMvc.swift */; };
 		B3589DDA29D9502E00A6B5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3589DD929D9502E00A6B5FA /* Assets.xcassets */; };
 		B3589DDD29D9502E00A6B5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3589DDB29D9502E00A6B5FA /* LaunchScreen.storyboard */; };
+		B3B1B5F629E71AFA00F1DE32 /* LoginViewControllerVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B5F529E71AFA00F1DE32 /* LoginViewControllerVIPER.swift */; };
+		B3B1B5FD29E71CCB00F1DE32 /* LoginInteractorVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B5FC29E71CCB00F1DE32 /* LoginInteractorVIPER.swift */; };
+		B3B1B5FF29E71CD500F1DE32 /* LoginPresenterVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B5FE29E71CD500F1DE32 /* LoginPresenterVIPER.swift */; };
+		B3B1B60129E71CE300F1DE32 /* LoginEntityViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B60029E71CE300F1DE32 /* LoginEntityViper.swift */; };
+		B3B1B60329E71CEC00F1DE32 /* LoginRouterViper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1B60229E71CEC00F1DE32 /* LoginRouterViper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
+		B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMvp.swift; sourceTree = "<group>"; };
+		B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterMvp.swift; sourceTree = "<group>"; };
+		B3199DB429E2C409005EEAC2 /* LoginViewInputMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewInputMvp.swift; sourceTree = "<group>"; };
+		B3199DB629E2C41A005EEAC2 /* LoginViewOutputMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewOutputMvp.swift; sourceTree = "<group>"; };
+		B3199DBA29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMVVM.swift; sourceTree = "<group>"; };
+		B3199DBD29E2D435005EEAC2 /* Login View Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login View Model.swift"; sourceTree = "<group>"; };
+		B34E848729E906B900815AB7 /* LoginViewControllerViperInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViperInput.swift; sourceTree = "<group>"; };
+		B34E848929E906C300815AB7 /* LoginViewControllerViperOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViperOutput.swift; sourceTree = "<group>"; };
+		B34E848F29E906F100815AB7 /* LoginPresneterViperInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresneterViperInput.swift; sourceTree = "<group>"; };
+		B34E849129E906FE00815AB7 /* LoginPresenterViperOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterViperOutput.swift; sourceTree = "<group>"; };
+		B34E849329E9186800815AB7 /* LoginRouterViperInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterViperInput.swift; sourceTree = "<group>"; };
 		B3589DCD29D9502D00A6B5FA /* LoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3589DD029D9502D00A6B5FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3589DD229D9502D00A6B5FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3589DD429D9502D00A6B5FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3589DD729D9502D00A6B5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3589DD429D9502D00A6B5FA /* LoginViewControllerMvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMvc.swift; sourceTree = "<group>"; };
 		B3589DD929D9502E00A6B5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3589DDC29D9502E00A6B5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3589DDE29D9502E00A6B5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B1B5F529E71AFA00F1DE32 /* LoginViewControllerVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerVIPER.swift; sourceTree = "<group>"; };
+		B3B1B5FC29E71CCB00F1DE32 /* LoginInteractorVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorVIPER.swift; sourceTree = "<group>"; };
+		B3B1B5FE29E71CD500F1DE32 /* LoginPresenterVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterVIPER.swift; sourceTree = "<group>"; };
+		B3B1B60029E71CE300F1DE32 /* LoginEntityViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntityViper.swift; sourceTree = "<group>"; };
+		B3B1B60229E71CEC00F1DE32 /* LoginRouterViper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterViper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3199DB129E2C107005EEAC2 /* Login MVP */ = {
+			isa = PBXGroup;
+			children = (
+				B3199DB929E2C53B005EEAC2 /* View */,
+				B3199DB829E2C41E005EEAC2 /* Presenter */,
+			);
+			path = "Login MVP";
+			sourceTree = "<group>";
+		};
+		B3199DB829E2C41E005EEAC2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B3199DB929E2C53B005EEAC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */,
+				B3199DB629E2C41A005EEAC2 /* LoginViewOutputMvp.swift */,
+				B3199DB429E2C409005EEAC2 /* LoginViewInputMvp.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3199DBC29E2D2D9005EEAC2 /* Login MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				B3199DBA29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift */,
+				B3199DBD29E2D435005EEAC2 /* Login View Model.swift */,
+			);
+			path = "Login MVVM";
+			sourceTree = "<group>";
+		};
 		B3589DC429D9502D00A6B5FA = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +124,91 @@
 		B3589DCF29D9502D00A6B5FA /* LoginTest */ = {
 			isa = PBXGroup;
 			children = (
-				B3589DD029D9502D00A6B5FA /* AppDelegate.swift */,
-				B3589DD229D9502D00A6B5FA /* SceneDelegate.swift */,
-				B3589DD429D9502D00A6B5FA /* ViewController.swift */,
-				B3589DD629D9502D00A6B5FA /* Main.storyboard */,
+				B3589DE429D96C0300A6B5FA /* appLaunch */,
+				B3589DE529D96C2A00A6B5FA /* Login MVC */,
+				B3199DB129E2C107005EEAC2 /* Login MVP */,
+				B3199DBC29E2D2D9005EEAC2 /* Login MVVM */,
+				B3B1B5F429E71ACE00F1DE32 /* LOGIN VIPER */,
 				B3589DD929D9502E00A6B5FA /* Assets.xcassets */,
 				B3589DDB29D9502E00A6B5FA /* LaunchScreen.storyboard */,
 				B3589DDE29D9502E00A6B5FA /* Info.plist */,
 			);
 			path = LoginTest;
+			sourceTree = "<group>";
+		};
+		B3589DE429D96C0300A6B5FA /* appLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				B3589DD029D9502D00A6B5FA /* AppDelegate.swift */,
+				B3589DD229D9502D00A6B5FA /* SceneDelegate.swift */,
+			);
+			path = appLaunch;
+			sourceTree = "<group>";
+		};
+		B3589DE529D96C2A00A6B5FA /* Login MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B3589DD429D9502D00A6B5FA /* LoginViewControllerMvc.swift */,
+				B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */,
+			);
+			path = "Login MVC";
+			sourceTree = "<group>";
+		};
+		B3B1B5F429E71ACE00F1DE32 /* LOGIN VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B5F729E71B9B00F1DE32 /* View */,
+				B3B1B5F829E71BAA00F1DE32 /* Interactor */,
+				B3B1B5F929E71BB100F1DE32 /* Presenter */,
+				B3B1B5FB29E71BC200F1DE32 /* Entity */,
+				B3B1B5FA29E71BBE00F1DE32 /* Router */,
+			);
+			path = "LOGIN VIPER";
+			sourceTree = "<group>";
+		};
+		B3B1B5F729E71B9B00F1DE32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B5F529E71AFA00F1DE32 /* LoginViewControllerVIPER.swift */,
+				B34E848729E906B900815AB7 /* LoginViewControllerViperInput.swift */,
+				B34E848929E906C300815AB7 /* LoginViewControllerViperOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3B1B5F829E71BAA00F1DE32 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B5FC29E71CCB00F1DE32 /* LoginInteractorVIPER.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B3B1B5F929E71BB100F1DE32 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B5FE29E71CD500F1DE32 /* LoginPresenterVIPER.swift */,
+				B34E848F29E906F100815AB7 /* LoginPresneterViperInput.swift */,
+				B34E849129E906FE00815AB7 /* LoginPresenterViperOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B3B1B5FA29E71BBE00F1DE32 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B60229E71CEC00F1DE32 /* LoginRouterViper.swift */,
+				B34E849329E9186800815AB7 /* LoginRouterViperInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B3B1B5FB29E71BC200F1DE32 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1B60029E71CE300F1DE32 /* LoginEntityViper.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +271,6 @@
 			files = (
 				B3589DDD29D9502E00A6B5FA /* LaunchScreen.storyboard in Resources */,
 				B3589DDA29D9502E00A6B5FA /* Assets.xcassets in Resources */,
-				B3589DD829D9502D00A6B5FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +281,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3589DD529D9502D00A6B5FA /* ViewController.swift in Sources */,
+				B34E849029E906F100815AB7 /* LoginPresneterViperInput.swift in Sources */,
+				B3199DBB29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift in Sources */,
+				B3B1B60129E71CE300F1DE32 /* LoginEntityViper.swift in Sources */,
+				B3199DB329E2C190005EEAC2 /* LoginPresenterMvp.swift in Sources */,
+				B3199DBE29E2D435005EEAC2 /* Login View Model.swift in Sources */,
+				B3B1B60329E71CEC00F1DE32 /* LoginRouterViper.swift in Sources */,
+				B34E849429E9186800815AB7 /* LoginRouterViperInput.swift in Sources */,
+				B3B1B5FD29E71CCB00F1DE32 /* LoginInteractorVIPER.swift in Sources */,
+				B3B1B5FF29E71CD500F1DE32 /* LoginPresenterVIPER.swift in Sources */,
+				B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */,
+				B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */,
+				B3589DD529D9502D00A6B5FA /* LoginViewControllerMvc.swift in Sources */,
 				B3589DD129D9502D00A6B5FA /* AppDelegate.swift in Sources */,
+				B3199DB729E2C41A005EEAC2 /* LoginViewOutputMvp.swift in Sources */,
+				B34E848829E906B900815AB7 /* LoginViewControllerViperInput.swift in Sources */,
+				B34E848A29E906C300815AB7 /* LoginViewControllerViperOutput.swift in Sources */,
+				B3B1B5F629E71AFA00F1DE32 /* LoginViewControllerVIPER.swift in Sources */,
+				B3199DB529E2C409005EEAC2 /* LoginViewInputMvp.swift in Sources */,
+				B34E849229E906FE00815AB7 /* LoginPresenterViperOutput.swift in Sources */,
 				B3589DD329D9502D00A6B5FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +307,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3589DD629D9502D00A6B5FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3589DD729D9502D00A6B5FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3589DDB29D9502E00A6B5FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +444,9 @@
 				INFOPLIST_FILE = LoginTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +454,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Twrotu.LoginTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +475,9 @@
 				INFOPLIST_FILE = LoginTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +485,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Twrotu.LoginTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
