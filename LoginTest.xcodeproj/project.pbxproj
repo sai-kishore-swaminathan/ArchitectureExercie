@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B306628929F594A4000B3AC9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306628829F594A4000B3AC9 /* FeedViewController.swift */; };
+		B306628B29F5AA69000B3AC9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306628A29F5AA69000B3AC9 /* NetworkService.swift */; };
+		B306628D29F5AC96000B3AC9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306628C29F5AC96000B3AC9 /* LoginModel.swift */; };
 		B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */; };
 		B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */; };
 		B3199DB329E2C190005EEAC2 /* LoginPresenterMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		B306628829F594A4000B3AC9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B306628A29F5AA69000B3AC9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B306628C29F5AC96000B3AC9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
 		B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMvp.swift; sourceTree = "<group>"; };
 		B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterMvp.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 			children = (
 				B3199DB929E2C53B005EEAC2 /* View */,
 				B3199DB829E2C41E005EEAC2 /* Presenter */,
+				B306628A29F5AA69000B3AC9 /* NetworkService.swift */,
+				B306628C29F5AC96000B3AC9 /* LoginModel.swift */,
 			);
 			path = "Login MVP";
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 			files = (
 				B34E849029E906F100815AB7 /* LoginPresneterViperInput.swift in Sources */,
 				B3199DBB29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift in Sources */,
+				B306628B29F5AA69000B3AC9 /* NetworkService.swift in Sources */,
 				B3B1B60129E71CE300F1DE32 /* LoginEntityViper.swift in Sources */,
 				B3199DB329E2C190005EEAC2 /* LoginPresenterMvp.swift in Sources */,
 				B3199DBE29E2D435005EEAC2 /* Login View Model.swift in Sources */,
@@ -299,6 +306,7 @@
 				B3347E7F29ED151D00610A9E /* TODO.swift in Sources */,
 				B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */,
 				B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */,
+				B306628D29F5AC96000B3AC9 /* LoginModel.swift in Sources */,
 				B3589DD529D9502D00A6B5FA /* LoginViewControllerMvc.swift in Sources */,
 				B3589DD129D9502D00A6B5FA /* AppDelegate.swift in Sources */,
 				B3199DB729E2C41A005EEAC2 /* LoginViewOutputMvp.swift in Sources */,

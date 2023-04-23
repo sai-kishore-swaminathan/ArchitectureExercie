@@ -16,9 +16,11 @@ import Foundation
 public final class LoginPresenterMvp: LoginViewOutputMvp {
 
     private var view: LoginViewInputMvp
+    private var model: LoginModel
 
-    init(view: LoginViewInputMvp) {
+    init(view: LoginViewInputMvp, model: LoginModel) {
         self.view = view
+        self.model = model
     }
 
     // MARK: - Login Action Logic
@@ -36,12 +38,19 @@ public final class LoginPresenterMvp: LoginViewOutputMvp {
         } else {
             view.didObtainValidationResult(result: .invalidEmail)
         }
-        // Other common responsibilities after clicking login
 
-        // Login info Validation ( Network calls )
-        // Storing information to DB ( DB objects )
-        // Fetching stuff from APIs (Different Services)
-        // Re routing to different module (Calling different modules )
+        model.performLogin { result in
+            switch result {
+            case .success(_):
+                // go to next MVP from here
+                // Presenter will hold reference to the next VC
+                let vc = "DummyViewController"
+            case .failure(_):
+                // Display error
+                print("Failure")
+            }
+        }
+
     }
 }
 

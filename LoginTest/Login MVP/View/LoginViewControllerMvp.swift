@@ -77,7 +77,8 @@ final class LoginViewControllerMvp: UIViewController,
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = LoginPresenterMvp(view: self)
+        // Does not hold any reference to model, just creates Login Model
+        presenter = LoginPresenterMvp(view: self, model: LoginModel(networkService: NetworkService.shared))
         setupUI()
     }
 
