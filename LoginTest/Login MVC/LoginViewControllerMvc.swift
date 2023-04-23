@@ -125,21 +125,64 @@ final class LoginViewControllerMvc: UIViewController, UITextFieldDelegate {
 
     @objc
     private func didTapLoginButton() {
-        // implement me
-        if Validator.isValidEmail(loginTextField.text ?? "") {
+        guard let email = loginTextField.text,
+              let password = passwordTextField.text else {
+            errorDescription.text = "Please enter values"
+            errorDescription.textColor = .red
+            return
+        }
+        if Validator.isValidEmail(email) {
             errorDescription.text = "Login successful"
             errorDescription.textColor = .green
         } else {
             errorDescription.text = "This is not a valid mail id"
             errorDescription.textColor = .red
         }
-        // Other common responsibilities after clicking login
 
-        // Login info Validation ( Network calls )
-        // Storing information to DB ( DB objects )
-        // Fetching stuff from APIs (Different Services)
-        // Re routing to different module (Calling different modules )
+        var request = URLRequest(url: URL(string: "http://localhost:8080/api/v1/signin")!)
+
+        request.httpMethod = "POST"
+
+        let authData = (email + ":" + password).data(using: .utf8)!.base64EncodedString()
+        request.addValue("Basic \(authData)", forHTTPHeaderField: "Authorization")
+
+        URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
+            DispatchQueue.main.async {
+                if error != nil || (response as! HTTPURLResponse).statusCode != 200 {
+                    self?.errorDescription.text = "Network error, please try again later"
+                    self?.errorDescription.textColor = .red
+                } else if let data = data {
+                    do {
+                        let signInResponse = try JSONDecoder().decode(SignInResponse.self, from: data)
+
+                        print(signInResponse)
+
+                        self?.routeToFeed()
+
+                        // TODO: Cache Access Token in Keychain or other DB
+                    } catch {
+                        print("Unable to Decode Response \(error)")
+                    }
+                }
+            }
+        }.resume()
     }
+
+    private func routeToFeed() {
+        // HOLDS STRONG REFERENCE OF THE NEW VIEW CONTROLLER
+        let newViewController = FeedViewController()
+        newViewController.modalPresentationStyle = .fullScreen
+        self.dismiss(animated: true)
+        self.present(newViewController, animated: true)
+    }
+}
+
+fileprivate struct SignInResponse: Decodable {
+
+    // MARK: - Properties
+
+    let accessToken: String
+
 }
 
 

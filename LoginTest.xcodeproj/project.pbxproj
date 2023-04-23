@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B306628929F594A4000B3AC9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306628829F594A4000B3AC9 /* FeedViewController.swift */; };
 		B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */; };
 		B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */; };
 		B3199DB329E2C190005EEAC2 /* LoginPresenterMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */; };
@@ -14,6 +15,7 @@
 		B3199DB729E2C41A005EEAC2 /* LoginViewOutputMvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DB629E2C41A005EEAC2 /* LoginViewOutputMvp.swift */; };
 		B3199DBB29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DBA29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift */; };
 		B3199DBE29E2D435005EEAC2 /* Login View Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3199DBD29E2D435005EEAC2 /* Login View Model.swift */; };
+		B3347E7F29ED151D00610A9E /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3347E7E29ED151D00610A9E /* TODO.swift */; };
 		B34E848829E906B900815AB7 /* LoginViewControllerViperInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848729E906B900815AB7 /* LoginViewControllerViperInput.swift */; };
 		B34E848A29E906C300815AB7 /* LoginViewControllerViperOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848929E906C300815AB7 /* LoginViewControllerViperOutput.swift */; };
 		B34E849029E906F100815AB7 /* LoginPresneterViperInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34E848F29E906F100815AB7 /* LoginPresneterViperInput.swift */; };
@@ -32,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B306628829F594A4000B3AC9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
 		B3199DAF29E2C0FF005EEAC2 /* LoginViewControllerMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMvp.swift; sourceTree = "<group>"; };
 		B3199DB229E2C190005EEAC2 /* LoginPresenterMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterMvp.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 		B3199DB629E2C41A005EEAC2 /* LoginViewOutputMvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewOutputMvp.swift; sourceTree = "<group>"; };
 		B3199DBA29E2D2D1005EEAC2 /* LoginViewControllerMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMVVM.swift; sourceTree = "<group>"; };
 		B3199DBD29E2D435005EEAC2 /* Login View Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login View Model.swift"; sourceTree = "<group>"; };
+		B3347E7E29ED151D00610A9E /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		B34E848729E906B900815AB7 /* LoginViewControllerViperInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViperInput.swift; sourceTree = "<group>"; };
 		B34E848929E906C300815AB7 /* LoginViewControllerViperOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViperOutput.swift; sourceTree = "<group>"; };
 		B34E848F29E906F100815AB7 /* LoginPresneterViperInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresneterViperInput.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 			children = (
 				B3589DD429D9502D00A6B5FA /* LoginViewControllerMvc.swift */,
 				B3199DAD29E2B5BC005EEAC2 /* ValidatorService.swift */,
+				B3347E7E29ED151D00610A9E /* TODO.swift */,
+				B306628829F594A4000B3AC9 /* FeedViewController.swift */,
 			);
 			path = "Login MVC";
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 				B34E849429E9186800815AB7 /* LoginRouterViperInput.swift in Sources */,
 				B3B1B5FD29E71CCB00F1DE32 /* LoginInteractorVIPER.swift in Sources */,
 				B3B1B5FF29E71CD500F1DE32 /* LoginPresenterVIPER.swift in Sources */,
+				B3347E7F29ED151D00610A9E /* TODO.swift in Sources */,
 				B3199DAE29E2B5BC005EEAC2 /* ValidatorService.swift in Sources */,
 				B3199DB029E2C0FF005EEAC2 /* LoginViewControllerMvp.swift in Sources */,
 				B3589DD529D9502D00A6B5FA /* LoginViewControllerMvc.swift in Sources */,
@@ -299,6 +306,7 @@
 				B34E848A29E906C300815AB7 /* LoginViewControllerViperOutput.swift in Sources */,
 				B3B1B5F629E71AFA00F1DE32 /* LoginViewControllerVIPER.swift in Sources */,
 				B3199DB529E2C409005EEAC2 /* LoginViewInputMvp.swift in Sources */,
+				B306628929F594A4000B3AC9 /* FeedViewController.swift in Sources */,
 				B34E849229E906FE00815AB7 /* LoginPresenterViperOutput.swift in Sources */,
 				B3589DD329D9502D00A6B5FA /* SceneDelegate.swift in Sources */,
 			);
