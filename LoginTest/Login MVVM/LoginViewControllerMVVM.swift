@@ -71,7 +71,8 @@ final class LoginViewControllerMvvm: UIViewController,
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = LoginViewModel()
+        // CREATION OF LOGINVM and NETWORk SERVICE AND LOGIN MODEL is still in VC - BAD
+        viewModel = LoginViewModel(model: LoginModel(networkService: NetworkService()))
         setupUI()
     }
 
@@ -79,10 +80,7 @@ final class LoginViewControllerMvvm: UIViewController,
     // MARK: - Private methods
     private func setupUI() {
         view.backgroundColor = .systemIndigo
-        self.viewModel.bindViewModelToController = {
-            self.errorDescription.text = self.viewModel.errorDescription
-            self.errorDescription.textColor = self.viewModel.errorDescriptionColor
-        }
+        observeViewModelState()
         configureStackView()
         loginTextField.delegate = self
         loginButton.addTarget(self, action: #selector(didTapLoginButton), for: .touchUpInside)
@@ -116,6 +114,14 @@ final class LoginViewControllerMvvm: UIViewController,
     private func didTapLoginButton() {
         viewModel.didTapLoginButton(email: loginTextField.text,
                                      password: passwordTextField.text)
+    }
+
+
+    private func observeViewModelState() {
+        self.viewModel.bindViewModelToController = {
+            self.errorDescription.text = self.viewModel.errorDescription
+            self.errorDescription.textColor = self.viewModel.errorDescriptionColor
+        }
     }
 }
 

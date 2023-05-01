@@ -10,3 +10,7 @@ import Foundation
 public protocol LoginViperRouterInput {
     func didFinishLogin()
 }
+
+public protocol LoginViperRouterOutput {
+    func performLogin(completion: @escaping (Result<Data, Error>) -> Void)
+}

@@ -10,7 +10,7 @@ import Foundation
 
 // Netowork related calls lies in the model layer in MVP
 
-final class LoginModel {
+public final class LoginModel {
     // Other data related to the model
 
     // Network Functions 

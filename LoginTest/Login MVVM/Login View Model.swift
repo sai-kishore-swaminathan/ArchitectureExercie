@@ -15,6 +15,8 @@ import UIKit
 
 public final class LoginViewModel {
 
+    public var loginModel: LoginModel
+
     var errorDescription: String? {
         didSet
         {
@@ -24,8 +26,9 @@ public final class LoginViewModel {
 
     var errorDescriptionColor: UIColor = .gray
 
-    public init() {
+    public init(model: LoginModel) {
         self.errorDescription = "Enter Login Information"
+        self.loginModel = model
     }
 
     public func didTapLoginButton(email: String?, password: String?) {
@@ -41,12 +44,19 @@ public final class LoginViewModel {
         } else {
             updateErrorDescription(result: .invalidEmail)
         }
-        // Other common responsibilities after clicking login
 
-        // Login info Validation ( Network calls )
-        // Storing information to DB ( DB objects )
-        // Fetching stuff from APIs (Different Services)
-        // Re routing to different module (Calling different modules )
+        loginModel.performLogin { result in
+            switch result {
+            case .success(_):
+                // go to next MVP from here
+                // Presenter will hold reference to the next VC
+                // ROUTING HAPPENS HERE
+                let vc = "DummyViewController"
+            case .failure(_):
+                // Display error
+                print("Failure")
+            }
+        }
     }
 
     private func updateErrorDescription(result: ValidationResult) {
